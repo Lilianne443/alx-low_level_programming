@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlid.h>
+#include <stdlib.h>
 /**
  * main - prints all combination of single digits
  * Description: prints all single number of base 10
@@ -18,6 +18,8 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-	c++;
-	return (0);
+		c++;
 	}
+	putchar('\n');
+	return (0);
+}
